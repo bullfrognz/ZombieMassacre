@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{5356a0e0-9f30-4494-a8f6-eb67636e0282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\Header Files">
+      <UniqueIdentifier>{f2313c59-de1e-42b8-ab9d-78bb7b346304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Logger">
+      <UniqueIdentifier>{8285e878-2df7-4a93-94e9-6170a5c2fc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Logger\Header Files">
+      <UniqueIdentifier>{6deecac2-d259-4157-a7cf-712d000dcbbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Logger\Source Files">
+      <UniqueIdentifier>{ddedc252-b906-434a-9134-eada45961e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_MessageHandler">
+      <UniqueIdentifier>{afbbae8f-c5b1-4cb3-973d-ec640f9c62ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_MessageHandler\Header Files">
+      <UniqueIdentifier>{b35d51f4-e422-457a-921b-916075a9af3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_MessageHandler\Source Files">
+      <UniqueIdentifier>{2004cc21-9c0f-44f3-a9f3-cf91ad7f4ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\Source Inline Files">
+      <UniqueIdentifier>{969ebfed-cf32-4f54-a411-d6e0e8acc1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_IniParser">
+      <UniqueIdentifier>{5e46d9dd-8c7a-42d4-8d0c-6c52d35bf222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_IniParser\Soruce Files">
+      <UniqueIdentifier>{691ba486-90c2-46d2-a047-41b7232552f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_IniParser\Header Files">
+      <UniqueIdentifier>{c8e96bd6-528c-43a9-8e78-e1568ca58422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_DebugDialog">
+      <UniqueIdentifier>{694b58cb-d028-420b-80c5-c5d9e6ceb2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_DebugDialog\Header Files">
+      <UniqueIdentifier>{3ab160cf-45b2-4886-9537-477ecfd1625a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_DebugDialog\Source Files">
+      <UniqueIdentifier>{5020a971-e4b0-4bfe-ae42-2f9f4fe20dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{a793be46-e8e0-47d6-b1de-4bb353893478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files">
+      <UniqueIdentifier>{c2f78e1f-ff87-4eda-b800-8f73b74d2090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files">
+      <UniqueIdentifier>{310e8842-2d99-4768-b5f0-236c31c4d977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Inline Files">
+      <UniqueIdentifier>{a1361d4e-e031-40fe-abea-47b31513d821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c7d919d0-7850-4f9b-a1d3-af4d72448606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game\Source Inline Files">
+      <UniqueIdentifier>{f882be9f-ddf0-4e2a-a42f-76df2d117b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="_Framework\Source Files">
+      <UniqueIdentifier>{ec8f770c-e2cd-4578-aadb-f83262e493b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\BloodSplatter.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bullet.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameScene.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HighScoreTable.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HolyGrenade.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenu.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SubmitScore.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Turret.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Weapon.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Zombie.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimatedEntity.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimatedSprite.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animation.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Projectile.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RotationEntity.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RotationSprite.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteEntity.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugDialog.h">
+      <Filter>_Framework\_DebugDialog\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IniParser.h">
+      <Filter>_Framework\_IniParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogOutputWindow.h">
+      <Filter>_Framework\_Logger\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogTarget.h">
+      <Filter>_Framework\_Logger\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogManager.h">
+      <Filter>_Framework\_Logger\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageHandler.h">
+      <Filter>_Framework\_MessageHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageManager.h">
+      <Filter>_Framework\_MessageHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageTarget.h">
+      <Filter>_Framework\_MessageHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BackBuffer.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Clock.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entity.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PerformanceClock.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteCache.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\BloodSplatter.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameScene.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HighScoreTable.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HolyGrenade.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenu.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SubmitScore.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Turret.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Weapon.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Zombie.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimatedEntity.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimatedSprite.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animation.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Character.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Projectile.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RotationEntity.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RotationSprite.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteEntity.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugDialog.cpp">
+      <Filter>_Framework\_DebugDialog\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IniParser.cpp">
+      <Filter>_Framework\_IniParser\Soruce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LogManager.cpp">
+      <Filter>_Framework\_Logger\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LogOutputWindow.cpp">
+      <Filter>_Framework\_Logger\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MessageManager.cpp">
+      <Filter>_Framework\_MessageHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MessageHandler.cpp">
+      <Filter>_Framework\_MessageHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BackBuffer.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Clock.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entity.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PerformanceClock.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteCache.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAIN.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Resources\GameTitleMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\HolyBomb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\HolyBombMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\InGame_Menu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\InGame_MenuMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\MainMenu_ButtonMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\MainMenu_HighScores.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\MainMenu_Options.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\MainMenu_PlayGame.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\MainMenu_Quit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\MainMenu_Quit2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\PauseMenu_Continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\PauseMenu_MainMenu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\PlayerInfoBar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\PlayerInfoBarBottom.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\PlayerInfoBarBottomMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\PlayerInfoBarMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Title_HighScoreTable.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Title_HighScoreTableMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Turret.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\TurretMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\UpgradeMenu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\UpgradeMenuMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\ZombieGreen.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\ZombieMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\ZombieOrange.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\ZombieRed.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\bitmap10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\BulletMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Button_Close.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Button_MainMenu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Button_PlayGame.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Button_PlayGameMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Button_Select.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\Button_SelectMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\Resources\GameTitle.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\BloodSplatter.inl">
+      <Filter>Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\GameScene.inl">
+      <Filter>Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\HolyGrenade.inl">
+      <Filter>Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Turret.inl">
+      <Filter>Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Weapon.inl">
+      <Filter>Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Zombie.inl">
+      <Filter>Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\AnimatedEntity.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\AnimatedSprite.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Animation.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Button.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Particle.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Character.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Projectile.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\RotationEntity.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\RotationSprite.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\SpriteEntity.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Text.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\BackBuffer.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Application.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Entity.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Sprite.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\SpriteCache.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Vector.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Window.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Zombie Massacre.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

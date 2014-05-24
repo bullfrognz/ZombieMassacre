@@ -1,0 +1,190 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CHARACTER_TURRETMASK BITMAP                 "Resources/TurretMask.bmp"
+IDB_CHARACTER_TURRET    BITMAP                  "Resources/Turret.bmp"
+IDB_HOLYGRENADEMASK     BITMAP                  "Resources/HolyBombMask.bmp"
+IDB_HOLYGRENADE         BITMAP                  "Resources/HolyBomb.bmp"
+IDB_BUTTON_CLOSE        BITMAP                  "Resources/Button_Close.bmp"
+IDB_BUTTON_MAINMENU_SMALL BITMAP                "Resources/Button_MainMenu.bmp"
+IDB_TITLE_HIGHSCOREMASK BITMAP                  "Resources/Title_HighScoreTableMask.bmp"
+IDB_TITLE_HIGHSCORE     BITMAP                  "Resources/Title_HighScoreTable.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DEBUGDIALOG DIALOGEX 0, 0, 350, 215
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_WINDOWEDGE
+CAPTION "Debug Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Apply",ID_APPLY,275,182,50,14
+    PUSHBUTTON      "Close",ID_CLOSE,184,182,50,14
+    GROUPBOX        "Turret",IDC_GROUP_TURRET,16,20,156,176,BS_LEFT
+    CONTROL         "Bullet Damage Max:",IDC_TEXT_BULLETDAMANGEMAX,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,70,64,8
+    CONTROL         "Bullet Damage Min:",IDC_TEXT_BULLETDAMANGEMIN,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,88,65,8
+    CONTROL         "Fire Rate:",IDC_TEXT_FIRERATE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,34,36,8
+    CONTROL         "Critical Chance:",IDC_TEXT_CRITICALCHANCE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,52,59,8
+    CONTROL         "Grenade Ammo:",IDC_TEXT_GRENADEAMMO,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,105,65,8
+    CONTROL         "Experience:",IDC_TEXT_EXPERIENCE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,122,102,8
+    CONTROL         "Upgrade Points:",IDC_TEXT_UPGRADEPOINTS,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,140,108,8
+    CONTROL         "Max Health:",IDC_TEXT_MAXHEALTH,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,158,67,8
+    EDITTEXT        IDC_INPUT_FIRERATE,97,32,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_CRITICALCHANCE,97,50,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_BULLETDAMAGEMAX,97,68,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_BULLETDAMAGEMIN,97,86,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_GRENADEAMMO,97,103,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_EXPERIENCE,97,120,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_UPGRADEPOINTS,97,138,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_MAXHEALTH,97,156,41,14,ES_AUTOHSCROLL
+    CONTROL         "Current Health:",IDC_TEXT_CURRENTHEALTH,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,26,176,62,8
+    EDITTEXT        IDC_INPUT_CURRENTHEALTH,97,174,42,14,ES_AUTOHSCROLL
+    CONTROL         "(int)",IDC_TEXT_BULLETDAMANGEMAXTYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,70,16,8
+    CONTROL         "(int)",IDC_TEXT_BULLETDAMANGEMINTYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,87,16,8
+    CONTROL         "(float)",IDC_TEXT_FIRERATETYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,34,21,8
+    CONTROL         "(int)",IDC_TEXT_CRITICALCHANCETYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,52,16,8
+    CONTROL         "(int)",IDC_TEXT_GRENADEAMMOTYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,105,15,8
+    CONTROL         "(int)",IDC_TEXT_EXPERIENCETYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,122,15,8
+    CONTROL         "(int)",IDC_TEXT_UPGRADEPOINTSTYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,140,15,8
+    CONTROL         "(int)",IDC_TEXT_MAXHEALTHTYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,158,16,8
+    CONTROL         "(int)",IDC_TEXT_CURRENTHEALTHTYPE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,175,17,8
+    GROUPBOX        "Game",IDC_GROUP_GAME,182,20,143,65
+    CONTROL         "Level:",IDC_TEXT_LEVEL,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,194,34,48,8
+    CONTROL         "(int)",IDC_TEXT_FIRERATETYPE2,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,296,34,21,8
+    EDITTEXT        IDC_INPUT_GAMELEVEL,250,31,41,14,ES_AUTOHSCROLL
+    CONTROL         "Zombie Spawn Rate:",IDC_TEXT_ZOMBIE,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,194,51,74,8
+    CONTROL         "(int)",IDC_TEXT_FIRERATETYPE3,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,241,65,21,8
+    EDITTEXT        IDC_INPUT_ZOMBIESPAWNRATE,192,62,41,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DEBUGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 343
+        TOPMARGIN, 11
+        BOTTOMMARGIN, 208
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (New Zealand) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENZ)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_NZ
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BULLETMASK          BITMAP                  "Resources/BulletMask.bmp"
+IDB_BULLET              BITMAP                  "Resources/Bullet.bmp"
+IDB_BUTTON_PLAYGAME     BITMAP                  "Resources/MainMenu_PlayGame.bmp"
+IDB_BUTTON_MAINMENUMASK BITMAP                  "Resources/MainMenu_ButtonMask.bmp"
+IDB_BUTTON_HIGHSCORES   BITMAP                  "Resources/MainMenu_HighScores.bmp"
+IDB_BUTTON_OPTIONS      BITMAP                  "Resources/MainMenu_Options.bmp"
+IDB_BUTTON_QUIT         BITMAP                  "Resources/MainMenu_Quit.bmp"
+IDB_GAMETITLEMASK       BITMAP                  "Resources/GameTitleMask.bmp"
+IDB_GAMETITLE           BITMAP                  "Resources/GameTitle.bmp"
+IDB_BUTTON_CONTINUE     BITMAP                  "Resources/PauseMenu_Continue.bmp"
+IDB_BUTTON_MAINMENU     BITMAP                  "Resources/PauseMenu_MainMenu.bmp"
+IDB_PLAYERINFOBAR       BITMAP                  "Resources/PlayerInfoBar.bmp"
+IDB_PLAYERINFOBARMASK   BITMAP                  "Resources/PlayerInfoBarMask.bmp"
+IDB_INGAME_MENUMASK     BITMAP                  "Resources/InGame_MenuMask.bmp"
+IDB_INGAME_MENU         BITMAP                  "Resources/InGame_Menu.bmp"
+IDB_ZOMBIE_MASK         BITMAP                  "Resources/ZombieMask.bmp"
+IDB_ZOMBIE_GREEN        BITMAP                  "Resources/ZombieGreen.bmp"
+IDB_ZOMBIE_RED          BITMAP                  "Resources/ZombieRed.bmp"
+IDB_ZOMBIE_ORANGE       BITMAP                  "Resources/ZombieOrange.bmp"
+IDB_BUTTON_SELECTMASK   BITMAP                  "Resources/Button_SelectMask.bmp"
+IDB_BUTTON_SELECT       BITMAP                  "Resources/Button_Select.bmp"
+IDB_PLAYERINFOBAR_BOTTOMMASK BITMAP             "Resources/PlayerInfoBarBottomMask.bmp"
+IDB_PLAYERINFOBAR_BOTTOM BITMAP                 "Resources/PlayerInfoBarBottom.bmp"
+IDB_UPGRADEMENUMASK     BITMAP                  "Resources/UpgradeMenuMask.bmp"
+IDB_UPGRADEMENU         BITMAP                  "Resources/UpgradeMenu.bmp"
+#endif    // English (New Zealand) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
